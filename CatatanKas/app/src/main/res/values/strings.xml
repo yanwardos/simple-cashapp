@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CatatanKas</string>
+
+    <string name="KEY_PREFERENCE">PREFERENCE</string>
+    <string name="KEY_TRANSAKSI">TRANSAKSI</string>
+    <string name="progress_on_saving">Sedang menyimpan</string>
+    <string name="error_field_empty">Field tidak boleh kosong.</string>
+</resources>

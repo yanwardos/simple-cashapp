@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    
+<!--    pengeluaran-->
+    <color name="textColorOut">#CC3636</color>
+<!--    pemasukan-->
+    <color name="textColorIn">#367E18</color>
+
+    <color name="onSecondary">#071952</color>
+    <color name="onBackground">#071952</color>
+    <color name="onSurface">#071952</color>
+</resources>
