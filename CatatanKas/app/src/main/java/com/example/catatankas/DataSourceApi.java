@@ -38,7 +38,7 @@ public class DataSourceApi {
         Uri.Builder builder = new Uri.Builder();
         builder.scheme("https")
                 .authority("script.google.com")
-                .appendEncodedPath("macros/s/AKfycbxNEp6XogMxNFDO4Ng7jKk0RBWLMGsDzW2nEHjupRx23JytegPfIIGmQGmjdCb-YL0d/exec")
+                .appendEncodedPath(context.getString(R.string.API_PATH))
                 .appendQueryParameter("action", "read");
 
         String url = builder.build().toString();
@@ -93,7 +93,7 @@ public class DataSourceApi {
         Uri.Builder builder = new Uri.Builder();
         builder.scheme("https")
                 .authority("script.google.com")
-                .appendEncodedPath("macros/s/AKfycbxNEp6XogMxNFDO4Ng7jKk0RBWLMGsDzW2nEHjupRx23JytegPfIIGmQGmjdCb-YL0d/exec")
+                .appendEncodedPath(context.getString(R.string.API_PATH))
                 .appendQueryParameter("action", "insert");
         builder
                 .appendQueryParameter("title", transaksi.getTitle())
@@ -129,7 +129,7 @@ public class DataSourceApi {
         Uri.Builder builder = new Uri.Builder();
         builder.scheme("https")
                 .authority("script.google.com")
-                .appendEncodedPath("macros/s/AKfycbxNEp6XogMxNFDO4Ng7jKk0RBWLMGsDzW2nEHjupRx23JytegPfIIGmQGmjdCb-YL0d/exec")
+                .appendEncodedPath(context.getString(R.string.API_PATH))
                 .appendQueryParameter("action", "delete");
 
         String url = builder.build().toString();
